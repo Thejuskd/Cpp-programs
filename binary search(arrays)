@@ -1,0 +1,26 @@
+//used stl arrays
+
+
+#include <iostream>
+#include<algorithm> //most important
+using namespace std;
+
+int main()
+{
+   int n;
+   cin>>n;
+   int a[n];
+   for(int i=0;i<n;i++){
+       cin>>a[i];
+   }
+   int key;
+   cin>>key;
+   if(binary_search(a,a+n,key)){
+       cout<< find(a, a + n, element) - a;// to fetch the index position
+   else{
+       cout<<-1;
+   }
+   
+   
+    return 0;
+}
